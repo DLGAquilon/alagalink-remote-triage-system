@@ -24,15 +24,14 @@ export default function AlagaLinkOfficial() {
         <div className="container mx-auto flex h-20 items-center justify-between px-6 py-4">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <Heart className="h-8 w-8 text-green-700 fill-green-700" />
             <span className="text-2xl font-black tracking-tighter uppercase text-green-800">
               Alaga<span className="text-yellow-500">Link</span>
             </span>
           </div>
 
           {/* Navigation - Centered */}
-          <nav className="hidden lg:flex items-center gap-8 font-bold text-green-800 uppercase tracking-wider text-sm">
-            <a href="#" className="border-b-2 border-green-700 pb-1">
+          <nav className=" hidden lg:flex items-center gap-8 font-bold font-body text-green-800 uppercase tracking-wider text-sm">
+            <a href="#" className="border-green-700 pb-1">
               Home
             </a>
             <a href="#about" className="hover:text-green-600 transition pb-1">
@@ -61,11 +60,11 @@ export default function AlagaLinkOfficial() {
         <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Text & CTA */}
           <div className="space-y-8 z-10">
-            <h1 className="text-5xl lg:text-7xl font-black text-green-800 leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold font-figtree text-green-800 leading-tight">
               Elevate Community Health With{" "}
               <span className="text-green-600">AI-Powered Triage.</span>
             </h1>
-            <p className="text-lg text-stone-600 max-w-lg leading-relaxed">
+            <p className="font-body text-lg text-stone-600 max-w-lg leading-relaxed">
               AlagaLink streamlines Barangay Health Centers with automated
               patient prioritization and self-service tools, ensuring timely and
               efficient care for every resident.
@@ -73,7 +72,7 @@ export default function AlagaLinkOfficial() {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="bg-green-700 text-white px-8 py-4 rounded-md font-black uppercase shadow-lg hover:bg-green-800 transition flex items-center justify-center gap-2">
+              <button className="bg-green-700 text-white px-8 py-4 rounded-md font-black font-body uppercase shadow-lg hover:bg-green-800 transition flex items-center justify-center gap-2">
                 Book an appointment
               </button>
             </div>
@@ -82,19 +81,19 @@ export default function AlagaLinkOfficial() {
             <div className="grid grid-cols-3 gap-8 pt-12 border-t border-green-100">
               <div>
                 <h3 className="text-4xl font-black text-green-700">12+</h3>
-                <p className="text-stone-600 font-medium mt-2">
+                <p className="text-stone-600 font-medium mt-2 font-body">
                   Pilot Barangays
                 </p>
               </div>
               <div>
                 <h3 className="text-4xl font-black text-green-700">650+</h3>
-                <p className="text-stone-600 font-medium mt-2">
+                <p className="text-stone-600 font-medium mt-2 font-body">
                   Patients Served
                 </p>
               </div>
               <div>
                 <h3 className="text-4xl font-black text-green-700">97%</h3>
-                <p className="text-stone-600 font-medium mt-2">
+                <p className="text-stone-600 font-medium mt-2 font-body">
                   Triage Accuracy
                 </p>
               </div>
@@ -157,15 +156,15 @@ export default function AlagaLinkOfficial() {
 
             {/* Right: Problem Text */}
             <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 px-4 py-1 rounded-full text-xs font-black uppercase tracking-tighter">
+              <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 px-4 py-1 rounded-full text-xs font-extrabold font-figtree uppercase tracking-tighter">
                 <AlertTriangle className="h-4 w-4" />
                 The Current Crisis
               </div>
-              <h2 className="text-4xl lg:text-5xl font-black text-green-800 uppercase leading-tight">
+              <h2 className="text-4xl lg:text-5xl font-bold font-figtree text-green-800 uppercase leading-tight">
                 Traditional Methods <br />
                 <span className="text-red-600">Are Inefficient.</span>
               </h2>
-              <p className="text-lg text-stone-600 leading-relaxed">
+              <p className="text-lg text-stone-600 leading-relaxed font-body">
                 Barangay Health Centers often experience inefficiency in patient
                 scheduling management due to manual catering methods which cause
                 conflicts, record loss, and overcrowding. The lack of digital
@@ -175,7 +174,7 @@ export default function AlagaLinkOfficial() {
               <div className="space-y-4 pt-4 border-t border-red-100">
                 <div className="flex gap-4">
                   <div className="h-6 w-6 rounded-full bg-red-600 flex-shrink-0" />
-                  <p className="text-sm font-bold text-stone-700">
+                  <p className="text-sm font-bold font-body text-stone-700">
                     Scheduling conflicts and data loss
                   </p>
                 </div>
@@ -193,17 +192,17 @@ export default function AlagaLinkOfficial() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Left: Solution Text */}
             <div className="space-y-6 lg:order-1 order-2">
-              <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-1 rounded-full text-xs font-black uppercase tracking-tighter">
+              <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-1 rounded-full text-xs font-bold font-figtree uppercase tracking-tighter">
                 <CheckCircle2 className="h-4 w-4" />
                 The AlagaLink Intervention
               </div>
-              <h2 className="text-4xl lg:text-5xl font-black text-green-800 uppercase leading-tight">
+              <h2 className="text-4xl lg:text-5xl font-bold font-figtree text-green-800 uppercase leading-tight">
                 Streamlining Care <br />
-                <span className="text-yellow-600 text-stroke-small">
+                <span className="text-yellow-600 text-stroke-small font-figtree">
                   Through Innovation.
                 </span>
               </h2>
-              <p className="text-lg text-stone-600 leading-relaxed">
+              <p className="text-lg text-stone-600 leading-relaxed font-body">
                 AlagaLink introduces a digital community health appointment
                 scheduling system that integrates self-service tools, automated
                 triage, and administrative dashboards.
@@ -228,10 +227,10 @@ export default function AlagaLinkOfficial() {
                     key={idx}
                     className="bg-white p-6 rounded-xl border-l-8 border-green-600 shadow-sm group hover:bg-green-50 transition-colors"
                   >
-                    <h4 className="font-black text-green-800 uppercase text-sm mb-1">
+                    <h4 className="font-black text-green-800 uppercase text-sm mb-1 font-figtree tracking-wider group-hover:text-green-600 transition-colors">
                       {item.title}
                     </h4>
-                    <p className="text-xs text-stone-500 font-medium">
+                    <p className="text-xs text-stone-500 font-medium font-body">
                       {item.desc}
                     </p>
                   </div>
@@ -263,33 +262,33 @@ export default function AlagaLinkOfficial() {
         className="py-24 bg-green-800 text-white relative overflow-hidden"
       >
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-black uppercase mb-8 italic">
+          <h2 className="text-4xl font-bold font-figtree uppercase mb-8 italic">
             Automated <span className="text-yellow-400">Triage</span>{" "}
             Integration
           </h2>
           <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
             <div className="p-6 bg-green-900/50 border border-green-600 rounded-lg">
               <BrainCircuit className="h-10 w-10 text-yellow-400 mx-auto mb-4" />
-              <h4 className="font-bold uppercase mb-2">
+              <h4 className="font-bold font-figtree uppercase mb-2">
                 Urgency Categorization
               </h4>
-              <p className="text-xs text-green-100">
+              <p className="text-xs text-green-100 font-body">
                 AI sorts patients by symptom severity to ensure immediate care
                 for critical cases.
               </p>
             </div>
             <div className="p-6 bg-green-900/50 border border-green-600 rounded-lg">
               <Activity className="h-10 w-10 text-yellow-400 mx-auto mb-4" />
-              <h4 className="font-bold uppercase mb-2">Immediate Feedback</h4>
-              <p className="text-xs text-green-100">
+              <h4 className="font-bold font-figtree uppercase mb-2">Immediate Feedback</h4>
+              <p className="text-xs text-green-100 font-body">
                 Provides real-time symptom assessment and automated status
                 updates to patients.
               </p>
             </div>
             <div className="p-6 bg-green-900/50 border border-green-600 rounded-lg">
               <ClipboardList className="h-10 w-10 text-yellow-400 mx-auto mb-4" />
-              <h4 className="font-bold uppercase mb-2">Suggested Checkups</h4>
-              <p className="text-xs text-green-100">
+              <h4 className="font-bold font-figtree uppercase mb-2">Suggested Checkups</h4>
+              <p className="text-xs text-green-100 font-body">
                 Automatically recommends specific medical services based on
                 triage data.
               </p>
@@ -302,7 +301,7 @@ export default function AlagaLinkOfficial() {
       <section id="sdg" className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-black text-green-800 uppercase">
+            <h2 className="text-3xl font-extrabold font-figtree text-green-800 uppercase">
               UN Sustainable Development Goals
             </h2>
             <div className="h-2 w-20 bg-yellow-400 mx-auto mt-2"></div>
@@ -316,10 +315,10 @@ export default function AlagaLinkOfficial() {
               />
               <div>
                 <span className="text-4xl font-black block mb-2">03</span>
-                <h4 className="font-bold uppercase text-sm mb-4">
+                <h4 className="font-bold font-figtree uppercase text-sm mb-2">
                   Good Health & Well-being
                 </h4>
-                <p className="text-xs">
+                <p className="text-xs font-body">
                   Guaranteeing healthy lives and promoting well-being for all
                   ages through service efficiency.
                 </p>
@@ -333,10 +332,10 @@ export default function AlagaLinkOfficial() {
               />
               <div>
                 <span className="text-4xl font-black block mb-2">11</span>
-                <h4 className="font-bold uppercase text-sm mb-4">
+                <h4 className="font-bold font-figtree uppercase text-sm mb-2">
                   Sustainable Communities
                 </h4>
-                <p className="text-xs">
+                <p className="text-xs font-body">
                   Promoting accessible and efficient community health service
                   delivery systems.
                 </p>
@@ -352,37 +351,37 @@ export default function AlagaLinkOfficial() {
         className="py-24 bg-orange-50 border-y-4 border-yellow-200"
       >
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-black text-green-800 uppercase text-center mb-16 italic">
+          <h2 className="text-3xl font-bold font-figtree text-green-800 uppercase text-center mb-16 italic">
             Research Foundations
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-black text-red-600 mb-2">High</div>
-              <p className="text-xs font-bold text-stone-500 uppercase">
+              <div className="text-4xl font-extrabold font-figtree text-red-600 mb-2">High</div>
+              <p className="text-xs font-bold font-body text-stone-500 uppercase">
                 Patient Dissatisfaction
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-black text-green-700 mb-2">
+              <div className="text-4xl font-extrabold font-figtree text-green-700 mb-2">
                 Loss
               </div>
-              <p className="text-xs font-bold text-stone-500 uppercase">
+              <p className="text-xs font-bold font-body text-stone-500 uppercase">
                 Manual Record Duplication
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-black text-green-700 mb-2">
+              <div className="text-4xl font-extrabold font-figtree text-green-700 mb-2">
                 Delay
               </div>
-              <p className="text-xs font-bold text-stone-500 uppercase">
+              <p className="text-xs font-bold font-body text-stone-500 uppercase">
                 Consultation Hours Overcrowding
               </p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-black text-green-700 mb-2">
+              <div className="text-4xl font-extrabold font-figtree text-green-700 mb-2">
                 Unequal
               </div>
-              <p className="text-xs font-bold text-stone-500 uppercase">
+              <p className="text-xs font-bold font-body text-stone-500 uppercase">
                 Access to Immediate Care
               </p>
             </div>
@@ -393,16 +392,16 @@ export default function AlagaLinkOfficial() {
       {/* 7. TARGET USERS */}
       <section id="users" className="py-24 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-black text-green-800 uppercase text-center mb-16">
+          <h2 className="text-3xl font-extrabold font-figtree text-green-800 uppercase text-center mb-16">
             Primary Stakeholders
           </h2>
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-left p-8 bg-stone-50 rounded-xl border-b-4 border-green-700 shadow-sm">
               <Users className="h-12 w-12 text-green-700 mx-auto mb-4" />
-              <h3 className="font-bold text-xl text-green-800 mb-4">
+              <h3 className="font-bold font-figtree text-xl text-green-800 mb-4">
                 PATIENTS
               </h3>
-              <p className="text-sm text-stone-600 leading-relaxed">
+              <p className="text-sm font-body text-stone-600 leading-relaxed">
                 Primary beneficiaries reducing wait times via digital
                 management.
               </p>
@@ -414,8 +413,8 @@ export default function AlagaLinkOfficial() {
             </div>
             <div className="text-left p-8 bg-stone-50 rounded-xl border-b-4 border-green-700 shadow-sm">
               <Activity className="h-12 w-12 text-green-700 mx-auto mb-4" />
-              <h3 className="font-bold text-xl text-green-800 mb-4">BHWs</h3>
-              <p className="text-sm text-stone-600 leading-relaxed">
+              <h3 className="font-bold font-figtree text-xl text-green-800 mb-4">BHWs</h3>
+              <p className="text-sm font-body text-stone-600 leading-relaxed">
                 Minimizes administrative workload and enables severe symptom
                 prioritization.
               </p>
@@ -427,10 +426,10 @@ export default function AlagaLinkOfficial() {
             </div>
             <div className="text-left p-8 bg-stone-50 rounded-xl border-b-4 border-green-700 shadow-sm">
               <GraduationCap className="h-12 w-12 text-green-700 mx-auto mb-4" />
-              <h3 className="font-bold text-xl text-green-800 mb-4">
+              <h3 className="font-bold font-figtree text-xl text-green-800 mb-4">
                 RESEARCHERS
               </h3>
-              <p className="text-sm text-stone-600 leading-relaxed">
+              <p className="text-sm font-body text-stone-600 leading-relaxed">
                 Future innovators using this structured framework for healthcare
                 systems.
               </p>
@@ -450,7 +449,7 @@ export default function AlagaLinkOfficial() {
         className="py-24 bg-orange-50 border-t-8 border-green-700"
       >
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-black text-green-800 mb-16 font-inter tracking-tight uppercase underline decoration-yellow-400 underline-offset-8">
+          <h2 className="text-4xl font-bold font-figtree text-green-800 mb-16 font-inter tracking-tight uppercase underline decoration-yellow-400 underline-offset-8">
             Team Setup
           </h2>
           <div className="max-w-sm mx-auto bg-white p-10 rounded-xl shadow-xl border-2 border-yellow-200 relative overflow-hidden">
@@ -468,23 +467,23 @@ export default function AlagaLinkOfficial() {
                 />
               </div>
             </div>
-            <h3 className="text-2xl font-black text-green-800 font-inter mb-4 uppercase tracking-tighter">
+            <h3 className="text-2xl font-bold font-figtree text-green-800 font-inter mb-4 uppercase tracking-tighter">
               Vin Benjamin Belandres
             </h3>
             <div className="space-y-2 mb-8">
-              <p className="text-green-700 font-black font-inter uppercase tracking-widest text-[10px] bg-green-50 py-1 rounded-full border border-green-100">
+              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
                 Full Stack Developer
               </p>
-              <p className="text-green-700 font-black font-inter uppercase tracking-widest text-[10px] bg-green-50 py-1 rounded-full border border-green-100">
+              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
                 UI/UX Designer
               </p>
-              <p className="text-green-700 font-black font-inter uppercase tracking-widest text-[10px] bg-green-50 py-1 rounded-full border border-green-100">
+              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
                 Project Manager
               </p>
             </div>
             <a
               href="https://dlgaquilon.github.io/it103-fa1-portfolio/"
-              className="inline-flex items-center gap-2 text-green-800 font-black font-inter uppercase tracking-tighter text-sm no-underline hover:text-green-600 hover:scale-105 transition-transform"
+              className="inline-flex items-center gap-2 text-green-800 text-lg font-black font-figtree uppercase tracking-tight text-sm no-underline hover:text-green-600 hover:scale-105 transition-transform"
             >
               View Portfolio
               <div className="bg-yellow-400 p-1 rounded-full">
