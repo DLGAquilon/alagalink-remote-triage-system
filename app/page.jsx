@@ -14,6 +14,14 @@ import {
   ClipboardList,
   AlertTriangle,
   CheckCircle2,
+  ShieldAlert,
+  Zap,
+  AlertCircle,
+  CheckCircle,
+  Users2,
+  Target,
+  ClipboardCheck,
+  Rocket,
 } from "lucide-react";
 
 export default function AlagaLinkOfficial() {
@@ -38,7 +46,7 @@ export default function AlagaLinkOfficial() {
               About Us
             </a>
             <a href="#ai" className="hover:text-green-600 transition pb-1">
-              AI Integration 
+              AI Integration
             </a>
             <a href="#users" className="hover:text-green-600 transition pb-1">
               Stakeholders
@@ -256,6 +264,57 @@ export default function AlagaLinkOfficial() {
         </div>
       </section>
 
+      {/* TEAM SETUP SECTION */}
+      <section
+        id="team"
+        className="py-24 bg-orange-50 border-t-8 border-green-700"
+      >
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold font-figtree text-green-800 mb-16 font-inter tracking-tight uppercase underline decoration-yellow-400 underline-offset-8">
+            Team Setup
+          </h2>
+          <div className="max-w-sm mx-auto bg-white p-10 rounded-xl shadow-xl border-2 border-yellow-200 relative overflow-hidden">
+            <div
+              className="absolute top-0 right-0 w-16 h-16 bg-green-700"
+              style={{ clipPath: "polygon(100% 0, 0 0, 100% 100%)" }}
+            ></div>
+            <div className="group relative mb-8">
+              <div className="absolute -inset-1 bg-gradient-to-r from-green-600 to-yellow-400 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div className="relative bg-white p-2 rounded-full inline-block border-4 border-green-700 shadow-md">
+                <img
+                  src="/images/formal-image.jpg"
+                  alt="Vin Benjamin Belandres"
+                  className="w-48 h-48 rounded-full bg-stone-100 object-cover"
+                />
+              </div>
+            </div>
+            <h3 className="text-2xl font-bold font-figtree text-green-800 font-inter mb-4 uppercase tracking-tighter">
+              Vin Benjamin Belandres
+            </h3>
+            <div className="space-y-2 mb-8">
+              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
+                Full Stack Developer
+              </p>
+              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
+                UI/UX Designer
+              </p>
+              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
+                Project Manager
+              </p>
+            </div>
+            <a
+              href="https://dlgaquilon.github.io/it103-fa1-portfolio/"
+              className="inline-flex items-center gap-2 text-green-800 text-lg font-black font-figtree uppercase tracking-tight text-sm no-underline hover:text-green-600 hover:scale-105 transition-transform"
+            >
+              View Portfolio
+              <div className="bg-yellow-400 p-1 rounded-full">
+                <ArrowRight className="h-4 w-4 text-green-900" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* 4. AI INTEGRATION */}
       <section
         id="ai"
@@ -263,7 +322,7 @@ export default function AlagaLinkOfficial() {
       >
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold font-figtree uppercase mb-8 italic">
-            Automated <span className="text-yellow-400">Triage</span>{" "}
+            AI-Assisted Automated <span className="text-yellow-400">Triage</span>{" "}
             Integration
           </h2>
           <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8">
@@ -279,7 +338,9 @@ export default function AlagaLinkOfficial() {
             </div>
             <div className="p-6 bg-green-900/50 border border-green-600 rounded-lg">
               <Activity className="h-10 w-10 text-yellow-400 mx-auto mb-4" />
-              <h4 className="font-bold font-figtree uppercase mb-2">Immediate Feedback</h4>
+              <h4 className="font-bold font-figtree uppercase mb-2">
+                Immediate Feedback
+              </h4>
               <p className="text-xs text-green-100 font-body">
                 Provides real-time symptom assessment and automated status
                 updates to patients.
@@ -287,7 +348,9 @@ export default function AlagaLinkOfficial() {
             </div>
             <div className="p-6 bg-green-900/50 border border-green-600 rounded-lg">
               <ClipboardList className="h-10 w-10 text-yellow-400 mx-auto mb-4" />
-              <h4 className="font-bold font-figtree uppercase mb-2">Suggested Checkups</h4>
+              <h4 className="font-bold font-figtree uppercase mb-2">
+                Suggested Checkups
+              </h4>
               <p className="text-xs text-green-100 font-body">
                 Automatically recommends specific medical services based on
                 triage data.
@@ -356,7 +419,9 @@ export default function AlagaLinkOfficial() {
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-extrabold font-figtree text-red-600 mb-2">High</div>
+              <div className="text-4xl font-extrabold font-figtree text-red-600 mb-2">
+                High
+              </div>
               <p className="text-xs font-bold font-body text-stone-500 uppercase">
                 Patient Dissatisfaction
               </p>
@@ -413,7 +478,9 @@ export default function AlagaLinkOfficial() {
             </div>
             <div className="text-left p-8 bg-stone-50 rounded-xl border-b-4 border-green-700 shadow-sm">
               <Activity className="h-12 w-12 text-green-700 mx-auto mb-4" />
-              <h3 className="font-bold font-figtree text-xl text-green-800 mb-4">BHWs</h3>
+              <h3 className="font-bold font-figtree text-xl text-green-800 mb-4">
+                BHWs
+              </h3>
               <p className="text-sm font-body text-stone-600 leading-relaxed">
                 Minimizes administrative workload and enables severe symptom
                 prioritization.
@@ -443,53 +510,211 @@ export default function AlagaLinkOfficial() {
         </div>
       </section>
 
-      {/* TEAM SETUP SECTION (Requested Refinement) */}
-      <section
-        id="team"
-        className="py-24 bg-orange-50 border-t-8 border-green-700"
-      >
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold font-figtree text-green-800 mb-16 font-inter tracking-tight uppercase underline decoration-yellow-400 underline-offset-8">
-            Team Setup
-          </h2>
-          <div className="max-w-sm mx-auto bg-white p-10 rounded-xl shadow-xl border-2 border-yellow-200 relative overflow-hidden">
-            <div
-              className="absolute top-0 right-0 w-16 h-16 bg-green-700"
-              style={{ clipPath: "polygon(100% 0, 0 0, 100% 100%)" }}
-            ></div>
-            <div className="group relative mb-8">
-              <div className="absolute -inset-1 bg-gradient-to-r from-green-600 to-yellow-400 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-              <div className="relative bg-white p-2 rounded-full inline-block border-4 border-green-700 shadow-md">
-                <img
-                  src="/images/formal-image.jpg"
-                  alt="Vin Benjamin Belandres"
-                  className="w-48 h-48 rounded-full bg-stone-100 object-cover"
-                />
+      <section id="summary" className="py-24 bg-[#fdf5e6] text-[#3d2b1f]">
+        <div className="container mx-auto px-6">
+          {/* Section Header */}
+          <div className="mb-16 border-l-8 border-green-700 pl-6">
+            <h2 className="text-4xl font-black uppercase tracking-tighter">
+              Project <span className="text-green-700">Summary</span>
+            </h2>
+            <p className="text-sm font-bold opacity-70 uppercase tracking-widest mt-2">
+              Strategic Framework & Framework for AlagaLink
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* a. Lay the Groundwork */}
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 flex flex-col">
+              <div className="bg-red-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                <ShieldAlert className="text-red-600 h-6 w-6" />
+              </div>
+              <h3 className="text-xl font-black uppercase mb-4">
+                a. Lay the Groundwork
+              </h3>
+              <p className="text-sm leading-relaxed opacity-80 mb-4">
+                Solving the inefficiency of manual catering and "first-come,
+                first-served" registration in BHCs.
+              </p>
+              <ul className="space-y-2 mt-auto">
+                <li className="flex items-start gap-2 text-xs font-bold">
+                  <AlertCircle size={14} className="text-red-600 mt-0.5" />
+                  Eliminating record loss and overcrowding.
+                </li>
+              </ul>
+            </div>
+
+            {/* b. Features */}
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 lg:col-span-2">
+              <div className="bg-green-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                <Zap className="text-green-700 h-6 w-6" />
+              </div>
+              <h3 className="text-xl font-black uppercase mb-4">
+                b. Main Features
+              </h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="space-y-4">
+                  <div className="flex gap-3">
+                    <CheckCircle
+                      size={18}
+                      className="text-green-700 shrink-0"
+                    />
+                    <div>
+                      <h4 className="font-black text-xs uppercase">
+                        Automated Triage
+                      </h4>
+                      <p className="text-[11px] opacity-70">
+                        AI-powered urgency categorization based on symptom
+                        severity.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle
+                      size={18}
+                      className="text-green-700 shrink-0"
+                    />
+                    <div>
+                      <h4 className="font-black text-xs uppercase">
+                        Self-Service Booking
+                      </h4>
+                      <p className="text-[11px] opacity-70">
+                        Digital portal for residents to manage appointments
+                        without duplication.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="space-y-4">
+                  <div className="flex gap-3">
+                    <CheckCircle
+                      size={18}
+                      className="text-green-700 shrink-0"
+                    />
+                    <div>
+                      <h4 className="font-black text-xs uppercase">
+                        BHW Dashboard
+                      </h4>
+                      <p className="text-[11px] opacity-70">
+                        Centralized interface for data management and patient
+                        flow.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle
+                      size={18}
+                      className="text-green-700 shrink-0"
+                    />
+                    <div>
+                      <h4 className="font-black text-xs uppercase">
+                        Real-time Feedback
+                      </h4>
+                      <p className="text-[11px] opacity-70">
+                        Immediate assessment and schedule updates for patients.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex gap-3">
+                    <CheckCircle
+                      size={18}
+                      className="text-green-700 shrink-0"
+                    />
+                    <div>
+                      <h4 className="font-black text-xs uppercase">
+                        Language Switching
+                      </h4>
+                      <p className="text-[11px] opacity-70">
+                        Available in English, Tagalog, and Bisaya for easier understanding.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <h3 className="text-2xl font-bold font-figtree text-green-800 font-inter mb-4 uppercase tracking-tighter">
-              Vin Benjamin Belandres
-            </h3>
-            <div className="space-y-2 mb-8">
-              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
-                Full Stack Developer
-              </p>
-              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
-                UI/UX Designer
-              </p>
-              <p className="text-green-700 font-bold font-body uppercase tracking-wider text-[12px] bg-green-50 py-1 rounded-full border border-green-100">
-                Project Manager
-              </p>
-            </div>
-            <a
-              href="https://dlgaquilon.github.io/it103-fa1-portfolio/"
-              className="inline-flex items-center gap-2 text-green-800 text-lg font-black font-figtree uppercase tracking-tight text-sm no-underline hover:text-green-600 hover:scale-105 transition-transform"
-            >
-              View Portfolio
-              <div className="bg-yellow-400 p-1 rounded-full">
-                <ArrowRight className="h-4 w-4 text-green-900" />
+
+            {/* c. User Personas */}
+            <div className="bg-green-800 text-white p-8 rounded-2xl shadow-xl flex flex-col justify-between">
+              <div>
+                <Users2 className="text-yellow-400 h-10 w-10 mb-6" />
+                <h3 className="text-xl font-black uppercase mb-6">
+                  c. User Personas
+                </h3>
+                <div className="space-y-6">
+                  <div>
+                    <span className="text-[10px] font-black bg-green-700 px-2 py-1 rounded">
+                      THE PATIENT
+                    </span>
+                    <p className="text-xs mt-2 opacity-80">
+                      Goal: Secure medical care without physical queuing or long
+                      wait times.
+                    </p>
+                  </div>
+                  <div>
+                    <span className="text-[10px] font-black bg-green-700 px-2 py-1 rounded">
+                      THE BHW
+                    </span>
+                    <p className="text-xs mt-2 opacity-80">
+                      Goal: Reduce admin workload and prioritize severe symptoms
+                      effectively.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </a>
+            </div>
+
+            {/* d. Strategic Goals */}
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <Target className="text-green-700 h-10 w-10 mb-6" />
+              <h3 className="text-xl font-black uppercase mb-4">
+                d. Strategic Goals
+              </h3>
+              <ul className="space-y-4">
+                <li className="flex items-center gap-3 border-b border-stone-100 pb-2">
+                  <span className="font-black text-green-700">03</span>
+                  <span className="text-[11px] font-bold uppercase">
+                    SDG: Good Health & Well-being
+                  </span>
+                </li>
+                <li className="flex items-center gap-3 border-b border-stone-100 pb-2">
+                  <span className="font-black text-green-700">11</span>
+                  <span className="text-[11px] font-bold uppercase">
+                    SDG: Sustainable Communities
+                  </span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="font-black text-green-700">0%</span>
+                  <span className="text-[11px] font-bold uppercase">
+                    Scheduling Conflict Target
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            {/* e. Release Criteria */}
+            <div className="bg-yellow-400 p-8 rounded-2xl shadow-sm border border-yellow-500">
+              <ClipboardCheck className="text-green-800 h-10 w-10 mb-6" />
+              <h3 className="text-xl font-black uppercase text-green-900 mb-4">
+                e. Release Criteria
+              </h3>
+              <div className="space-y-3">
+                {[
+                  "Triage Accuracy Test (Critical vs. Standard)",
+                  "Conflict Resolution (Block overlapping slots)",
+                  "Data Persistence (History access test)",
+                  "User Accessibility (3-click cancellation)",
+                ].map((test, i) => (
+                  <div
+                    key={i}
+                    className="flex items-center gap-2 bg-white/50 p-2 rounded border border-yellow-600/20"
+                  >
+                    <Rocket size={14} className="text-green-800" />
+                    <span className="text-[10px] font-black uppercase leading-tight">
+                      {test}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
